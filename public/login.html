@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Register Account</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+  </head>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-4">Mental Health Tracker <span role="img" aria-label="Memo">💚</span></h1>
+        <p class="lead">Your journey to a better mental state</p>
+        <hr class="my-4">
+      </div>
+    </div>
+    <div class="main-content">
+    <div class="login"> <!--Log in info-->
+      <form id="login-submit">
+        <div class ="login-container">
+        <div class="form-group">
+          <h3> Log in</h3>
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button> <!--On click take us to dashboard (/diary)-->
+      </form>
+    </div>
+  </div>
+  <div class="main-img"><img src="./assets/images/login_picture.png" alt="Login picture"></div>
+    <div class="signup"> <!--Sign up info-->
+      <form id="signup-submit"> <!--Signup form-->
+        <div class ="signup-container">
+        <div class="form-group">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" class="form-control" id="name" placeholder="Full Name">
+          </div>
+          <label for="signup-email">Email address</label>
+          <input type="email" class="form-control" id="signup-email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="signup-password">Password</label>
+          <input type="password" class="form-control" id="signup-password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="./assets/js/login.js"></script>
+</html>

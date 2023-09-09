@@ -1,0 +1,65 @@
+body{
+    background-color: #ecf0f1;
+}
+.jumbotron{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.display-4{
+    gap: 20px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+.display-4 .logout-btn{
+    background-color: grey;
+    font-size: 30px;
+    align-items: flex-end;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+hr{
+    margin-bottom: 0;
+}
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar-elements{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+#diary-list-container{
+    display: flex;
+    flex-direction: column;
+}
+#diary-list-container div{
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#diary-list-container div h2{
+    padding: 1%;
+    padding-bottom: 0;
+}
+#diary-list-container div h3{
+    padding: 1%;
+    padding-bottom: 0;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.author-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    
+}
